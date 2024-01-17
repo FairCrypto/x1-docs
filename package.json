@@ -1,0 +1,22 @@
+{
+  "name": "x1-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0",
+    "vuepress-plugin-md-enhance": "^2.0.0-rc.11"
+  },
+  "dependencies": {
+    "glob": "^10.3.10",
+    "vuepress-plugin-copy-code2": "^2.0.0-rc.11",
+    "vuepress-plugin-full-text-search2": "^0.4.0"
+  }
+}
