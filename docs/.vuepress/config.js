@@ -8,13 +8,10 @@ const sidebar = {
     '/': [
         {
             text: 'Introduction',
-            collapsable: true,
             link: '/',
         },
         {
             text: 'Developer Documentation',
-            collapsable: true,
-            link: '/developer/getting-started/',
             children: [
                 '/developer/getting-started/',
                 '/developer/docker/',
