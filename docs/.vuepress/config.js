@@ -43,7 +43,7 @@ module.exports = {
         sidebar: sidebar,
         editLink: true,
         repo: 'https://github.com/FairCrypto/go-x1',
-        docsRepo: 'https://github.com/FairCrypto/go-x1',
+        docsRepo: 'https://github.com/FairCrypto/x1-docs',
         docsBranch: 'main',
         docsDir: 'docs',
         navbar: [
