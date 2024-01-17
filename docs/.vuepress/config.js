@@ -2,6 +2,7 @@ import {defaultTheme } from 'vuepress'
 import fullTextSearchPlugin from "vuepress-plugin-full-text-search2";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
 
 
 const sidebar = {
@@ -12,10 +13,11 @@ const sidebar = {
         },
         {
             text: 'Developer Documentation',
+            link: '/developer/',
             children: [
-                '/developer/getting-started/',
+                '/developer/',
                 '/developer/docker/',
-                '/developer/validator',
+                '/developer/validator/',
             ]
         },
     ]
@@ -25,11 +27,12 @@ module.exports = {
     lang: 'en-US',
     title: 'X1 Blockchain Docs',
     description: 'X1 is a simple, fast, and secure EVM-compatible network for the next generation of decentralized applications powered by Lachesis consensus algorithm.',
-    base: '/x1-docs/',
+    // base: '/x1-docs/',
 
     plugins: [
         fullTextSearchPlugin(),
         copyCodePlugin(),
+        activeHeaderLinksPlugin(),
         mdEnhancePlugin({
             codetabs: true,
             tabs: true,
