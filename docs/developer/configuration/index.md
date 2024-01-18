@@ -6,7 +6,7 @@ We recommend running X1 as a system service.
 It offers control over starting, stopping, and restarting, runs in the background, and starts automatically on boot,
 ensuring availability and reliability.
 
-Please refer to the [interactive](./interactive) for instructions on how run X1 without a system service.
+Please refer to the [interactive](../running-node-interactively/) for instructions on how run X1 without a system service.
 
 ### Command Line Flags
 
