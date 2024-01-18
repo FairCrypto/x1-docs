@@ -1,4 +1,4 @@
-# Run with Docker
+# Running with Docker
 
 See the Docker packages [here](https://github.com/nibty/faircrypto/pkgs/container/go-x1).
 
@@ -14,11 +14,9 @@ mkdir -p $HOME/.x1
 
 > Run the container
 
-::: code-tabs
+::: code-group
 
-@tab Full Node
-
-```shell
+```shell [Full Node]
 docker run -d --name x1 \
   -p 5050:5050 \
   -v $HOME/.x1:/root/.x1 \
@@ -27,9 +25,7 @@ docker run -d --name x1 \
       --syncmode snap
 ```
 
-@tab API Node
-
-```shell
+```shell [API Node]
 docker run -d --name x1 \
   -p 5050:5050 \
   -p 8545:8545 \
@@ -49,12 +45,7 @@ docker run -d --name x1 \
       --ws.origins "*"
 ```
 
-@tab Archive Node
-
-```shell
-mkdir -p $HOME/.x1
-
-# Run the container with the data directory mounted
+```shell [Archive Node]
 docker run -d --name x1 \
   -p 5050:5050 \
   -v $HOME/.x1:/root/.x1 \
@@ -62,6 +53,18 @@ docker run -d --name x1 \
       --testnet \
       --syncmode full \
       --gcmode archive
+```
+
+```shell [Validator Node]
+docker run -d --name x1 \
+  -p 5050:5050 \
+  -v $HOME/.x1:/root/.x1 \
+  ghcr.io/faircrypto/go-x1:latest \
+      --testnet \
+      --syncmode snap \
+      --validator.id YOUR_VALIDATOR_ID \
+      --validator.pubkey YOUR_VALIDATOR_PUBKEY \
+      --validator.password ~/.x1/.password
 ```
 
 :::
