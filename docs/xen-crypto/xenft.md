@@ -1,5 +1,12 @@
 ---
 description: What is XenFT? Learn about XENFT and its features.
+head:
+  - - meta
+    - property: og:image
+      content: /xen-crypto-logo.svg
+  - - meta
+    - property: twitter:image
+      content: /xen-crypto-logo.svg
 ---
 
 # XENFT (XEN Torrent)

@@ -1,5 +1,12 @@
 ---
 description: How to run a X1 Blockchain a node with Docker
+head:
+  - - meta
+    - property: og:image
+      content: /x1-logo.svg
+  - - meta
+    - property: twitter:image
+      content: /x1-logo.svg
 ---
 
 # Running with Docker

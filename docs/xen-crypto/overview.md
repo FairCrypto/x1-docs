@@ -1,5 +1,12 @@
 ---
 description: What is Xen Crypto? Learn about the Xen Crypto token and its features.
+head:
+  - - meta
+    - property: og:image
+      content: /xen-crypto-logo.svg
+  - - meta
+    - property: twitter:image
+      content: /xen-crypto-logo.svg
 ---
 
 # Xen Crypto Overview

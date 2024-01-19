@@ -94,14 +94,14 @@ export default defineConfig({
     }
   },
 
-  transformHead({ pageData }) {
-    console.log(pageData.relativePath)
-    if (pageData.relativePath.startsWith('x1')) {
-      return [['meta', { property: 'twitter:image', content: '/x1-logo.svg'}],
-        ['meta', { property: 'twitter:image', content: '/x1-logo.svg'}]
-      ]
-    }
-  },
+  // transformHead({ pageData }) {
+  //   console.log(pageData.relativePath)
+  //   if (pageData.relativePath.startsWith('x1')) {
+  //     return [['meta', { property: 'twitter:image', content: '/x1-logo.svg'}],
+  //       ['meta', { property: 'twitter:image', content: '/x1-logo.svg'}]
+  //     ]
+  //   }
+  // },
 
   head: head()
 })

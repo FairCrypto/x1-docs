@@ -1,7 +1,13 @@
 ---
 description: Register a validator name and icon to help X1 delegators find you.
+head:
+   - - meta
+     - property: og:image
+       content: /x1-logo.svg
+   - - meta
+     - property: twitter:image
+       content: /x1-logo.svg
 ---
-
 
 # Register a Validator
 

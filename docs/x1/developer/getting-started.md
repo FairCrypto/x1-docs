@@ -1,5 +1,12 @@
 ---
 description: Getting started with X1 is easy. This guide will walk you through the process of installing X1 on your system.
+head:
+  - - meta
+    - property: og:image
+      content: /x1-logo.svg
+  - - meta
+    - property: twitter:image
+      content: /x1-logo.svg
 ---
 
 # Getting Started
