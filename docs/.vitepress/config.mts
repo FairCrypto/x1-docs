@@ -94,6 +94,15 @@ export default defineConfig({
     }
   },
 
+  transformHead({ pageData }) {
+    console.log(pageData.relativePath)
+    if (pageData.relativePath.startsWith('x1')) {
+      return [['meta', { property: 'twitter:image', content: '/x1-logo.svg'}],
+        ['meta', { property: 'twitter:image', content: '/x1-logo.svg'}]
+      ]
+    }
+  },
+
   head: head()
 })
 
@@ -121,14 +130,14 @@ function head(): HeadConfig[] {
 
     // facebook meta
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:image', content: './xen-logo.svg' }],
+    ['meta', { property: 'og:image', content: '/xen-logo.svg' }],
 
     // twitter meta
     ['meta', { property: 'twitter:title', content: 'XEN Network Documentation'}],
     ['meta', { property: 'twitter:card', content: 'summary'}],
     ['meta', { property: 'twitter:site', content: '@XEN_Crypto'}],
     ['meta', { property: 'twitter:description', content: 'Xen Network by Faircrypto is a cryptocurrency platform designed to adhere to the fundamental principles of crypto, making it widely accessible'}],
-    ['meta', { property: 'twitter:image', content: './xen-logo.svg'}],
+    ['meta', { property: 'twitter:image', content: '/xen-logo.svg'}],
 
     // generic meta
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
