@@ -1,3 +1,8 @@
+---
+description: Register a validator name and icon to help X1 delegators find you.
+---
+
+
 # Register a Validator
 
 Register a validator name and icon to help X1 delegators find you.

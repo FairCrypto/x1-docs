@@ -1,3 +1,7 @@
+---
+description: How to become a validator on the X1 Network
+---
+
 # Become a Validator
 
 Validator nodes are a crucial component of the X1 network.

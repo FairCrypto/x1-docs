@@ -1,3 +1,7 @@
+---
+description: Getting started with X1 is easy. This guide will walk you through the process of installing X1 on your system.
+---
+
 # Getting Started
 
 Whether you're interested in running an API node for a decentralized application, acting as a validator to stake XN, or operating a full node, contributing to the X1 Network is a rewarding endeavor. Embarking on this journey is straightforward. Simply adhere to the guidelines provided below.

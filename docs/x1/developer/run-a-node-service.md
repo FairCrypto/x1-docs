@@ -1,3 +1,7 @@
+---
+description: How to run a X1 Blockchain as a system service
+---
+
 # Run Node as a System Service
 
 We recommend running X1 as a system service.

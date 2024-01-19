@@ -1,3 +1,7 @@
+---
+description: How to run a X1 Blockchain interactively
+---
+
 # Run Node Interactively
 
 While running a node interactively is not recommended for production, it is a great way to get started with X1.

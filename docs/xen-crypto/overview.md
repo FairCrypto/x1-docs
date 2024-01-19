@@ -1,3 +1,7 @@
+---
+description: What is Xen Crypto? Learn about the Xen Crypto token and its features.
+---
+
 # Xen Crypto Overview
 
 Xen Crypto is an innovative ERC-20 token built on the Ethereum blockchain, designed to build a community through social mining.

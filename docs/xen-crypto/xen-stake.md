@@ -1,3 +1,7 @@
+---
+description: What is Xen Stake? Learn about the Xen Stake NFT and its features.
+---
+
 # Xen Stake NFT
 
 Xen Stake NFT is a part of the XEN Crypto ecosystem, offering a unique approach to staking cryptocurrencies.
