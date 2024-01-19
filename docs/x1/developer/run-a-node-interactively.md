@@ -1,10 +1,11 @@
 # Run Node Interactively
 
-While running a node interactively is not recommended for production, it is a great way to get started with X1. 
-Continue to [Running Node Service](../running-node-service/) for a production ready solution.
+While running a node interactively is not recommended for production, it is a great way to get started with X1.
+Continue to [Running Node Service](./run-a-node-service.md) for a production ready solution.
 <br><br>
 
 > See the common command line flags for each node type:
+
 :::code-group
 
 ```shell [Full Node]
@@ -39,9 +40,11 @@ x1 --testnet \
    --validator.pubkey YOUR_VALIDATOR_PUBKEY \
    --validator.password ~/.x1/.password
 ```
+
 :::
 
 > See a full list of command line flags:
+
 ```shell
 x1 --help
 ```

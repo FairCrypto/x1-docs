@@ -10,7 +10,7 @@ Register a validator name and icon to help X1 delegators find you.
 
 ## Config File
 
-Create a config file in `JSON` format that contains the following parameters (you can also leave any parameters empty):
+Create a config file using `JSON` format that contains the following parameters (you can also leave any parameters empty):
 
 | Name    | Description                                               |
 |---------|-----------------------------------------------------------|
@@ -19,17 +19,17 @@ Create a config file in `JSON` format that contains the following parameters (yo
 | website | Website URL                                               |
 | contact | Contact URL such as Telegram or Discord                   |
 
-
 ```json
 {
   "name": "VALIDATOR_NAME",
-  "logoUrl": "LOGO_URL", 
+  "logoUrl": "LOGO_URL",
   "website": "WEBSITE_URL",
   "contact": "CONTACT_URL"
 }
 ```
 
 ::: details Example JSON
+
 ```json
 {
   "name": "xencrypto1",
@@ -38,6 +38,7 @@ Create a config file in `JSON` format that contains the following parameters (yo
   "contact": "https://t.me/XENCryptoTalk"
 }
 ```
+
 :::
 
 Then host the file somewhere, so it is publicly accessible! Ex: https://x1-testnet-genesis.s3.amazonaws.com/xencrypto1.json
@@ -50,7 +51,7 @@ Then host the file somewhere, so it is publicly accessible! Ex: https://x1-testn
 
 Visit the [ValidatorInfo](https://explorer.x1-testnet.xen.network/address/0x891416e8bDB4437d4D0D303781A3828262220581/write-proxy#address-tabs) contract in the explorer and call the `updateInfo` function with your config file URL.
 
-![updateInfo.png](./updateInfo.png)
+![updateInfo.png](updateInfo.png)
 
 Click `Write` and use your Validator wallet to sign the transaction.
 
@@ -77,4 +78,5 @@ Click `Write` and use your Validator wallet to sign the transaction.
    validatorInfoContract.updateInfo("CONFIG_URL", { from: "WALLET_ADDRESS" })
    // e.g.: validatorInfoContract.updateInfo("https://x1-testnet-genesis.s3.amazonaws.com/xencrypto1.json", { from: "0xa4ddde0afdaea05a3d5a2ec6b5c7f3fc9945020b" })
    ```
-:::
+
+   :::

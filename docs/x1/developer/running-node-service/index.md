@@ -41,7 +41,6 @@ We provide ready-to-use example config files for each node type.
 
 > Run the following command to copy the example config file
 
-
 ::: code-group
 
 ```bash [Full Node (testnet)]
@@ -63,6 +62,7 @@ cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/archive-node.toml \
 cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
+
 :::
 
 ### User/Group
@@ -74,6 +74,7 @@ cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/validator-node.toml \
 By default, the systemd service will run as the user and group `x1` with the home directory `/var/lib/x1`.
 
 > You may change the user to your needs by running the following command.
+
 ```shell
 # Edit the service file
 sudo systemctl edit x1.service
@@ -81,7 +82,7 @@ sudo systemctl edit x1.service
 # Add the following lines with an existing
 # user and group of your choice.
 [Service]
-User=<user> 
+User=<user>
 Group=<group>
 ```
 
@@ -98,17 +99,20 @@ The service on MacOS operates under the current user.
 == Linux
 
 > Start the service and enable it on boot
+
 ```shell
 sudo systemctl start x1.service
 sudo systemctl enable x1.service
 ```
 
 > Stop the service
+
 ```shell
 sudo systemctl stop x1.service
 ```
 
 > Restart the service
+
 ```shell
 sudo systemctl restart x1.service
 ```
@@ -116,16 +120,19 @@ sudo systemctl restart x1.service
 == MacOS
 
 > Start the service and enable it on boot
+
 ```shell
 brew services start x1
 ```
 
 > Stop the service
+
 ```shell
 brew services stop x1
 ```
 
 > Restart the service
+
 ```shell
 brew services restart x1
 ```
@@ -141,11 +148,13 @@ brew services restart x1
 By default, logging is handled by the system's logging service.
 
 > Tail the logs
+
 ```shell
 journalctl -t x1 -f
 ```
 
 > See the last 1000 lines of logs
+
 ```shell
 journalctl -t x1 -n 1000
 ```
@@ -165,6 +174,7 @@ StandardError=append:/var/log/x1.log
 == MacOS
 
 > Tail the logs
+
 ```shell
 tail -f /opt/homebrew/var/log/x1.log
 ```
@@ -191,4 +201,5 @@ x1 attach
 # Attach to the console
 x1 attach
 ```
+
 :::

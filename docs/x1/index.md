@@ -18,3 +18,27 @@ Chain ID: `204005`
 
 - https://x1-testnet.xen.network/
 - wss://x1-testnet.xen.network
+
+## Other Networks
+
+### Devnet
+
+Chain ID: `202212`
+
+#### RPC Endpoints
+
+- https://x1-devnet.xen.network/
+- wss://x1-devnet.xen.network
+
+### Fastnet
+
+Chain ID: `4003`
+
+#### RPC Endpoints
+
+- https://x1-fastnet.xen.network/
+- wss://x1-fastnet.xen.network
+
+## Run a Node
+
+See our [Developer Documentation](./developer/) for instructions on how to run a node.

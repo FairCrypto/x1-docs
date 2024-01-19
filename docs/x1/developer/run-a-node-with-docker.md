@@ -3,11 +3,13 @@
 See the Docker packages [here](https://github.com/nibty/faircrypto/pkgs/container/go-x1).
 
 > Pull the latest image
+
 ```shell
 docker pull ghcr.io/faircrypto/go-x1:latest
 ```
 
 > Create the data directory
+
 ```shell
 mkdir -p $HOME/.x1
 ```

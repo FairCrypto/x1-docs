@@ -69,4 +69,6 @@ sudo make install
 ```
 :::
 
-Optionally, you can also run X1 with Docker. See [here](./docker/) for more information.
+::: info 🥳 Congratulations!
+You now have X1 installed on your system. You can verify the installation by running `x1 version`.
+:::
