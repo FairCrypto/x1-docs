@@ -56,22 +56,22 @@ We provide ready-to-use example config files for each node type.
 ::: code-group
 
 ```bash [Full Node]
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/full-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/full-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
 ```bash [API Node]
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/api-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/api-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
 ```bash [Archive Node
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/archive-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/archive-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
 ```bash [Validator Node
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/validator-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
