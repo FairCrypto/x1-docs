@@ -3,10 +3,10 @@ description: Getting started with X1 is easy. This guide will walk you through t
 head:
   - - meta
     - property: og:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
   - - meta
     - property: twitter:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
 ---
 
 # Getting Started

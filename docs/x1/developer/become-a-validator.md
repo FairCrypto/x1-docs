@@ -3,10 +3,10 @@ description: How to become a validator on the X1 Network
 head:
   - - meta
     - property: og:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
   - - meta
     - property: twitter:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
 ---
 
 # Become a Validator

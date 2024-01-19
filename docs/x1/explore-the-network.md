@@ -6,10 +6,10 @@ description: X1 is a simple, fast, and secure EVM-compatible network for the nex
 head:
   - - meta
     - property: og:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
   - - meta
     - property: twitter:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
 ---
 
 # X1 Blockchain

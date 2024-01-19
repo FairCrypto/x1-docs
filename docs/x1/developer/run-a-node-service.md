@@ -3,10 +3,10 @@ description: How to run a X1 Blockchain as a system service
 head:
   - - meta
     - property: og:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
   - - meta
     - property: twitter:image
-      content: /x1-logo.svg
+      content: /x1-logo.png
 ---
 
 # Run Node as a System Service
