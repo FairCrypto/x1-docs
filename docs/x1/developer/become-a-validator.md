@@ -130,7 +130,7 @@ journalctl -t x1 -f
 
 ```shell [MacOS Service]
 # Use the example config file for a validator node
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/validator-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 
 # Edit the config file and update the Validator ID,
