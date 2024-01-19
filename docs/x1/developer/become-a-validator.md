@@ -15,7 +15,7 @@ thereby enhancing the network's security and facilitating the creation of new bl
 
 ## Step 1: Run A Full Node
 
-Following the [Developer Docs](../developer) guide to install and run a full node. 
+Following the [Developer Docs](./getting-started) guide to install and run a full node. 
 
 ::: tip 
 Allow the node to **fully sync** before moving forward.
