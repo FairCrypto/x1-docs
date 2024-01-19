@@ -133,9 +133,8 @@ journalctl -t x1 -f
 cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 
-# Edit the config file and update the Validator ID,
-# public key, and password file's path.
-# (Use your favorite text editor)
+# Edit the config file (use your favorite text editor) and update the Validator ID,
+# public key, and password file's path (use the full path: ex: /Users/cool_person/.x1/.password).
 nano $HOMEBREW_PREFIX/etc/x1/config.toml
 
 # Restart the node
