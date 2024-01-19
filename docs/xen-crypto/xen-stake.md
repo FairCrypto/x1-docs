@@ -1,4 +1,5 @@
 ---
+titleTemplate: Xen Crypto
 description: What is Xen Stake? Learn about the Xen Stake NFT and its features.
 head:
   - - meta

@@ -1,4 +1,3 @@
----
 description: What is Xen Crypto? Learn about the Xen Crypto token and its features.
 head:
   - - meta

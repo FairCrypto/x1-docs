@@ -1,4 +1,5 @@
 ---
+titleTemplate: X1 Blockchain
 description: How to become a validator on the X1 Network
 head:
   - - meta

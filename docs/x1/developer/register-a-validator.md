@@ -1,4 +1,5 @@
 ---
+titleTemplate: X1 Blockchain
 description: Register a validator name and icon to help X1 delegators find you.
 head:
    - - meta

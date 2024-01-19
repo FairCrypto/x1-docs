@@ -1,4 +1,5 @@
 ---
+titleTemplate: Xen Crypto
 description: What is XenFT? Learn about XENFT and its features.
 head:
   - - meta

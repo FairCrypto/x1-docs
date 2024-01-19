@@ -1,4 +1,5 @@
 ---
+titleTemplate: X1 Blockchain
 description: How to run a X1 Blockchain a node with Docker
 head:
   - - meta
