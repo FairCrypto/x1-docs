@@ -66,6 +66,8 @@ export default defineConfig({
   lastUpdated: true,
 
   themeConfig: {
+    siteTitle: 'Xen Network Docs',
+
     footer: {
       copyright: 'Copyright © 2024 <a href="https://faircrypto.org/">Fair Crypto</a>'
     },
