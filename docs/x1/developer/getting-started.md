@@ -71,6 +71,9 @@ brew install faircrypto/go-x1/x1
 apt update -y
 apt install -y golang wget git make
 
+# Redhat/Centos
+# dnf install -y git wget sudo golang make
+
 # Clone and build the X1 binary
 git clone --branch x1 https://github.com/FairCrypto/go-x1
 cd go-x1
