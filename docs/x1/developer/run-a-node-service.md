@@ -31,19 +31,23 @@ We provide ready-to-use example config files for each node type.
 ::: code-group
 
 ```bash [Full Node]
-cp /usr/local/share/x1/configs/testnet/full-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/full-node.toml \
+  /etc/x1/config.toml
 ```
 
 ```bash [API Node]
-cp /usr/local/share/x1/configs/testnet/api-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/api-node.toml \
+  /etc/x1/config.toml
 ```
 
 ```bash [Archive Node]
-cp /usr/local/share/x1/configs/testnet/archive-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/archive-node.toml \
+  /etc/x1/config.toml
 ```
 
 ```bash [Validator]
-cp /usr/local/share/x1/configs/testnet/validator-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/validator-node.toml \
+  /etc/x1/config.toml
 ```
 
 == MacOS
